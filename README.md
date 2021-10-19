@@ -1,4 +1,5 @@
 CHECKPOINT 5 - PORTSCANNER
+
 --> O código foi desenvolvido e executado em um ambiente Linux.
     Tem a finalidade de escanear um IP com o intuito de verificar quais portas estão abertas naquele host.
     
