@@ -17,7 +17,7 @@ IP = re.compile("^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$")
 while True:
     IP = input("Digite o IP que deseja escanear: ")
     try:
-        ip_address_obj = ipaddress.ip_address(IP)
+        validIP = ipaddress.ip_address(IP)
         print("Endereço válido!")
         break
     except:
